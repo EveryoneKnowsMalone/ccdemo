@@ -2,7 +2,7 @@ document.getElementById('payment-form').addEventListener('submit', function(e) {
     e.preventDefault();
 
     let handler = PaystackPop.setup({
-        key: 'pk_test_5fe055ba27dde15faf6ecae9de3624bbb0023a76',
+        key: 'pk_test_30af85dbc3835e6c59892cfb32813682e825ab4c',
         email: document.getElementById('email').value,
         amount: document.getElementById('amount').value * 100,  // Paystack expects the amount in kobo
         currency: "NGN",
